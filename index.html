@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Test</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+  <h1 class="text-center">Homework</h1>
+  <div class="container ml-5">
+    <div class="validation">
+      <h2 class="">Validation</h2>
+      <p>Is
+        <span class="font-weight-bold">'updated_at'</span> later than
+        <span class="font-weight-bold">'created_at'</span>:&#x2003;
+        <span id="update-test" class="text-success"></span>
+      </p>
+      <p>Does
+        <span class="font-weight-bold">'public_repos'</span> match
+        <span class="font-weight-bold">'repos_url'</span> results:&#x2003;
+        <span id="repos-test" class="text-success"></span>
+      </p>
+      <div class="row ml-2">
+        <p class="col-md-4 font-weight-bold">public_repos count:
+          <span id="public-repo-total"></span>
+        </p>
+        <p class="col-md-4 font-weight-bold">repos_url count:
+          <span id="repo-url-total"></span>
+        </p>
+      </div>
+    </div>
+    <div id="results" class="mt-4">
+      <h2 class="">Returned ID's</h2>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="js/roi.js"></script>
+</body>
+
+</html>
